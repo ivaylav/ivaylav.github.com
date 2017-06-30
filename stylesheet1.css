@@ -1,0 +1,173 @@
+body {
+  font-family: "Courier New", Courier, monospace;
+}
+
+.header {
+  display: flex;
+  max-width: response;
+}
+
+section { float:left; }
+
+.section { display: flex; }
+
+
+/*.creator {
+  font-family: "Courier New", Courier, monospace;
+  float: right;
+  margin-bottom: 30px;
+}*/
+
+
+.imagestore {
+  background-image: url(endless-univerce.jpg);
+  width: 100%;
+  height: 249px;
+  background-size: cover;
+}
+
+.progectscategory img {
+  float: initial;
+  margin-inline-start: 30px;
+  max-width: 40%;
+  max-height: 45%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+
+
+h1 {
+  font-size: 40px;
+  color:  #33001a;
+  text-align: center;
+}
+
+.h3 {
+  margin: 0 0 20px;
+  color: #fff;
+}
+
+
+.buttons li { 
+  list-style-type: none;
+}
+  
+.buttons ul {
+  display: flex;
+  order: +1;
+  flex-direction: row;
+}
+
+
+.menu { 
+  background-color: #ff9999;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+
+.menu li { float: left; }
+
+.menu li a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover { background-color: #33001a; }
+
+.content {
+  overflow: visible;
+  float: center;
+  max-width: 800px;
+  padding: 30px;
+  margin-left: 200px;
+} 
+
+.contentbody p {
+  font-size: medium;
+  color: #33001a;
+  text-align: center;
+ }
+
+div li a:hover { background-color: #ffffff; }
+
+.gallery-container {
+  margin-left: 3.5%;
+  margin-right: 3%;
+ }
+
+.gallery-container ul {
+  list-style-type: none;
+  display: flex;
+  flex-flow: row wrap;
+  padding-left: 0;
+  justify-content: center;
+ }
+
+.gallery-container ul li {
+  display: inline-block;
+  text-align: center;
+  padding: 14px 16px;
+  max-width: 50%;
+}
+
+.gallery-container img { max-width: 90%; }
+
+h2 {
+  font-size: medium;
+  color: #33001a;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+.image {
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin: 15px;
+}
+
+.progectscategory img {
+  float: initial;
+  margin-left: 10%;
+  margin-right: 10%;
+  max-width: 90%;
+  max-height: 90%;
+}
+
+.progectscategory {
+  display: flex;
+}
+
+footer {
+  position: absolute;
+  right: 0px;
+  padding: 5%;
+}
+
+
+.message input textarea {
+  width: 300px;
+  height: 600px;
+}
+
+.ownercontacts {
+  text-align: right;
+  margin-right: 55px;
+}
